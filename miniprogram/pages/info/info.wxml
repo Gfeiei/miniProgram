@@ -1,0 +1,30 @@
+<!-- 地图上标记点,点击后的页面 -->
+
+<view class="info">
+<!-- 图片滑动 -->
+  <swiper indicator-dots="true" autoplay="true" interval="3000" class="background">
+    <block wx:for="{{market.img}}">
+    <swiper-item>
+      <image src="{{item}}" class="background"/>
+    </swiper-item>
+  </block>
+  </swiper>
+  <view class="box1"> 
+    <view class="box2_1">
+      <view class="box2">
+        <!-- 显示标记物的名字 -->
+        {{market.name}}
+      </view>
+    </view>
+    <view class="text">
+       简介:
+    </view>
+    <view class="text1">
+      <!-- 显示标记物的内容 -->
+      {{market.description}}
+    </view>
+  </view>
+   
+ 
+
+</view>

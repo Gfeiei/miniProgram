@@ -1,0 +1,31 @@
+.introduction {
+  width: 100%;
+  height: 1000rpx;
+
+}
+swiper{
+    width: 100%;
+    height: 40.5%;
+}
+.introduction .picture{
+  width: 100%;
+  height: 100%;
+}
+
+.context{
+
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 59.5%;
+}
+
+
+.introduction .container{
+  display: flex;
+  white-space: pre-line;
+  position: fixed;
+  align-items: center;
+
+
+}

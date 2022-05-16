@@ -1,0 +1,38 @@
+/* pages/jianjie/jianjie.wxss */
+
+.banner{
+    width: 100%;
+    height: 350rpx;
+  }
+  .banner swiper{
+    height: 100%;
+    width: 100%;
+  }
+  .banner image{
+    width: 100%;
+    height: 350rpx;
+  }
+  .tview{
+    display: flex;
+    flex-direction: column;
+  }
+  .text0{
+    justify-content: center;
+    text-align: center;
+    font-size:60rpx;
+    color: #f10404;
+    font-weight: bold;
+    font-family: STSong;
+  }
+  .text1{
+    font-size:35rpx;
+    text-indent:2em;
+  }
+  .text2{
+    font-size:35rpx;
+    text-indent:2em;
+  }
+  .text3{
+    font-size:35rpx;
+    text-indent:2em;
+  }

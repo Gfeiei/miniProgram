@@ -1,0 +1,20 @@
+
+  <view class="introduction">
+    <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
+   indicator-active-color="#fff" circular autoplay interval="4000">
+   <swiper-item><image src="/img/ico/jianjie1.jpg"></image></swiper-item>
+   <swiper-item><image src="/img/ico/jianjie2.jpg"></image></swiper-item>
+   <swiper-item><image src="/img/ico/jianjie3.jpg"></image></swiper-item>
+   </swiper>
+   <view class="container">
+     <view class="context">
+       <button type="warn" plain="true" bindtap="gojianjie">简介</button>
+     </view>
+     <view class="context">
+     <button type="warn" plain="true" bindtap="golishi">历史</button>
+      </view>
+      <view class="context">
+        <button type="warn" plain="true" bindtap="gosanqi">三期石窟</button>
+      </view>
+    </view>
+</view>

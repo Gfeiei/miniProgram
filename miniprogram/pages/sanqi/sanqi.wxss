@@ -1,0 +1,27 @@
+/* pages/sanqi/sanqi.wxss */
+.banner{
+    width: 100%;
+    height: 350rpx;
+  }
+  .banner swiper{
+    height: 100%;
+    width: 100%;
+  }
+  .banner image{
+    width: 100%;
+    height: 350rpx;
+  }
+  .tview{
+    display: flex;
+    flex-direction: column;
+  }
+  .text1{
+    font-size:50rpx;
+    color: #4d11f0;
+    font-weight: bold;
+    font-family: STSong;
+  }
+  .text2{
+    font-size:32rpx;
+    text-indent:2em;
+  }
