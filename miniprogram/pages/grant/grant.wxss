@@ -1,15 +1,58 @@
-.AvatarUrl{
-    width: 375px;
-    height:375px;
-    border-radius:50%;
-    overflow:hidden; 
-    text-align: center;
-}
-   
-.nicname {
-    font-size: 16px;
-    display: flex;
-
+.header{
+    margin: 200rpx 186rpx; 
+    width: 50%;
+    opacity: 0.7; 
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20rpx;
     align-items: center;
-    justify-content: center;
+    background: rgb(245, 238, 230); 
+
 }
+.userinfo{
+    margin: 200rpx 220rpx;   /*在页面中的位置*/
+    width: 210rpx;
+    height:210rpx;
+    border-radius:50%;
+    display:flex;        /*流式布局*/
+    flex-direction: column;/*纵向排列*/
+    align-items: center;  /*侧轴元素居中*/
+    background-color: rgb(245, 238, 230); 
+    opacity: 0.7; 
+
+}
+.lo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:48rpx;
+    color:rgb(83, 18, 18)
+}
+.userinfo button{
+
+    margin: 10rpx 10rpx;   /*在页面中的位置*/
+    font-size: 24rpx;   
+    width: 100%;
+    height:100%;
+    text-align: center; 
+    display: flex;
+    border-radius:50%;
+    overflow:hidden;
+    background-color: rgb(245, 238, 230); 
+   
+}
+.beijing{
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+    filter: blur(5rpx); /*高斯模糊*/
+  }
+  .goin{
+    width: 200rpx;
+    height: 200rpx;
+    position:fixed; 
+  }

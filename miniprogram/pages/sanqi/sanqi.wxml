@@ -1,4 +1,5 @@
 <!--pages/sanqi/sanqi.wxml-->
+<image class="beijing" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/beijing.jpg" mode="aspectFill" style="opacity:{{0.3}}"></image>
 <view class="banner">
     <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
    indicator-active-color="#fff" circular autoplay interval="4000">
@@ -6,16 +7,86 @@
    <swiper-item><image src="/img/ico/sanqi2.jpg"></image></swiper-item>
    <swiper-item><image src="/img/ico/sanqi3.jpg"></image></swiper-item>
    </swiper>
-   <view class="tview">
-     <text class="text1">\n早期石窟</text>
-     <text class="text2"> 即今第16～20窟，亦称为昙曜五窟。根据《魏书·释老志》（卷114）记载：“和平初，师贤卒。昙曜代之，更名沙门统。初，昙曜于复法之明年，自中山被命赴京，值帝出，见于路，御马前衔曜衣，时人以为马识善人，帝后奉以师礼。昙曜白帝，於京城西武州塞，凿山石壁，开窟五所，镌建佛像各一，高者七十尺，次六十尺，雕饰奇伟，冠于一世。”文中记述的开窟五所，就是当时著名的高僧昙曜就选择了钟灵毓秀的武州山，开凿了雄伟壮观的昙曜五窟，揭开了云冈石窟开凿的序幕。第16~20窟即帝王象征的昙曜五窟。平面为马蹄形，穹隆顶，外壁满雕千佛。主要造像为三世佛，佛像高大，面相丰圆，高鼻深目，双肩齐挺，显示出一种劲健、浑厚、质朴的造像作风。其雕刻技艺继承并发展了汉代的优秀传统，吸收并融合了古印度犍陀罗、秣菟罗艺术的精华，创造出具有独特的艺术风格。\n\n\n</text>
-   </view>
-   <view class="tview">
-     <text class="text1">中期石窟</text>
-     <text class="text2">这是云冈石窟雕凿的鼎盛阶段，主要有第1、2窟，第5、6窟，第7、8窟，第9、10窟，第11、12、13窟以及未完工的第3窟。这一时期（471-494年），是北魏迁洛以前的孝文时期，是北魏最稳定、最兴盛的时期，云冈石窟是集中了全国的优秀人才，以其国力为保证，进而雕凿出更为繁华精美的云冈石窟大窟大像。到孝文帝迁都前，皇家经营的所有大窟大像均已完成，历时40余年。中期洞窟平面多呈方形或长方形，有的洞窟雕中心塔柱，或具前后室，壁面布局上下重层，左右分段，窟顶多有平棊藻井。造像题材内容多样化，突出了释迦、弥勒佛的地位，流行释迦、多宝二佛并坐像，出现了护法天神、伎乐天、供养人行列以及佛本行、本生、因缘和维摩诘故事等。佛像面相丰圆适中，特别是褒衣博带式的佛像盛行，出现了许多新的题材和造像组合，侧重于护法形象和各种装饰。中期石窟也是积极于改革创新的时期，掀起了佛教石窟艺术中国化的过程。这多种因素的综合，也就产生了所谓富丽堂皇的太和风格，主要特点是汉化趋势发展迅速，石窟艺术中国化在这一时期起步并完成，这个时期即云冈中期石窟，它所呈现的内容繁复、雕饰精美的雕刻艺术特点大异于早期石窟，雕刻造型追求工整华丽，从洞窟形制到雕刻内容和风格均有明显的汉化特征。\n\n\n</text>
-   </view>
-   <view class="tview">
-     <text class="text1">晚期石窟</text>
-     <text class="text2">北魏迁都洛阳后（494年），云冈石窟大规模的开凿活动虽然停止了，但凿窟造像之风在中下层阶层蔓延起来，亲贵、中下层官吏以及邑人信众充分利用平城旧有的技艺在云冈开凿了大量的中小型洞窟，这种小窟小龛的镌建一直延续到孝明帝正光五年（524年），平城作为北都仍是北魏佛教要地。这时大窟减少，中、小型窟龛从东往西布满崖面。主要分布在第20窟以西，还包括第4窟、14窟、15窟和11窟以西崖面上的小龛，约有200余座中小型洞窟。洞窟大多以单窟形式出现，不再成组。造像题材多为释迦多宝或上为弥勒，下为释迦。佛像和菩萨面形消瘦、长颈、肩窄且下削，这种造像为北魏晚期推行“汉化”改革，出现的一种清新典雅“秀骨清像”的艺术形象，成为北魏后期佛教造像显著特点。这一特征和风格在龙门石窟北魏窟亦有表现，对中国石窟寺艺术的发展产生了深刻的影响。\n\n\n</text>
-   </view>
+</view>
+<text>\n</text>
+<view class="box1">
+  
+  <text class="text0">云冈石窟佛教艺术按石窟形制、造像内容和样式的发展，可分为早期、中期、晚期三个阶段。\n
+  </text>
+  <image class="img0" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/0.jpg"></image>
+</view>
+<view class="banner1">
+<swiper class = 'test'>
+  <swiper-item>
+    <view class="tview">
+      <view class="box">
+        <text class="text1">\n【早期石窟】\n</text>
+        <view class="btn">
+          <button bindtap="start1" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz1}}</text>
+        <image src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/1.jpg"></image>
+        <text>\n</text>
+        <view class="btn">
+          <button bindtap="start2" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz2}}</text>
+        <image src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/11.jpg"></image>
+      </view>
+    </view>
+  </swiper-item>
+
+
+  <swiper-item>
+    <view class="tview">
+      <view class="box">
+        <text class="text1">\n【中期石窟】\n</text>
+        <view class="btn">
+          <button bindtap="start3" style="height: 70rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 70rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz3}}</text>
+
+        <image src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/3.jpg"></image>
+
+        <view class="btn">
+          <button bindtap="start4" style="height: 70rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 70rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz4}}</text>
+        <text>\n</text>
+        <image class="img0" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/33.jpg"></image>
+        <view class="btn">
+          <button bindtap="start5" style="height: 70rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 70rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz5}}</text>
+      </view>
+    </view>
+  </swiper-item>
+
+
+  <swiper-item>
+    <view class="tview">
+      <view class="box">
+        <text class="text1">\n【晚期石窟】\n</text>
+        <view class="btn">
+          <button bindtap="start6" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz6}}</text>
+        <image class="img0" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/2.jpg"></image>
+        <text>\n</text>
+        <view class="btn">
+          <button bindtap="start7" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+        <text class="text2">{{wz7}}</text>
+        <image class="img0" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/22.jpg"></image>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
 </view>

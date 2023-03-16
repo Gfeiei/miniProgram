@@ -128,18 +128,6 @@ button {
   top: 82%;
 }
 
-.chatroom{
-  display: flex;
-  
-  flex-direction: column;
-  
-  width: 110rpx;
-  height: 100rpx;
-  
-  position:absolute;
-  top: 10rpx;
-  right:1rpx;
-}
 
 .navigatorstyle{
   width: 33.3%;

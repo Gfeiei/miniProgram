@@ -1,0 +1,52 @@
+/* pages/piao/piao.wxss */
+.beijing{
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+    filter: blur(10rpx); /*高斯模糊*/
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .text0{
+    justify-content: center;
+    text-align: center;
+    font-size:65rpx;
+    color: #721c1c;
+    font-weight: bold;
+    font-family: liSu;
+  }
+  .text1{
+    font-size:45rpx;
+    margin: auto;
+    margin-left: 2rpx;
+  }
+  .text2{
+    font-size:35rpx;
+    text-indent:1em;
+    margin: auto;
+    margin-left: 1rpx;
+  }
+  .text3{
+    font-size:35rpx;
+    text-indent:2em;
+  }
+  .text4{
+    font-size:35rpx;
+    margin: auto;
+    margin-left: 100rpx;
+  }
+  

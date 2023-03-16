@@ -1,0 +1,22 @@
+<!--pages/culture/culture.wxml-->
+<image class="beijing" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/beijing.jpg" mode="aspectFill" style="opacity:{{0.3}}"></image>
+<!-- 地图上标记点,点击后的页面 -->
+
+<view class="info">
+  <block wx:if="{{market.id==20}}">
+    <text class="box1">云冈院史馆</text>
+    <image src=""></image>
+    <text>123456</text>
+  </block>
+  <block wx:if="{{market.id==21}}">
+    <text class="box1">云冈院史馆</text>
+    <image ></image>
+    <text>123456</text>
+  </block>
+  <block wx:if="{{market.id==22}}">
+    <text class="box1">云冈院史馆</text>
+    <image ></image>
+    <text>123456</text>
+  </block>
+
+</view>

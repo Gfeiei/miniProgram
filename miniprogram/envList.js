@@ -1,4 +1,4 @@
-const envList = [{"envId":"cloud1-2gqg2781e9c5fa28","alias":"cloud1"}]
+const envList = [{"envId":"mana-3g7peqtjfc5bce0d","alias":"mana"}]
 const isMac = false
 module.exports = {
     envList,

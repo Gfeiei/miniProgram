@@ -12,17 +12,78 @@
     width: 100%;
     height: 350rpx;
   }
+
   .tview{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
   }
   .text1{
-    font-size:40rpx;
+    text-align:center;
+    font-size:50rpx;
     color: #160446;
     font-weight: bold;
-    font-family: STSong;
+    font-family: LiSu;
+    text-shadow: brown;
   }
   .text2{
-    font-size:32rpx;
+    font-size:35rpx;
     text-indent:2em;
   }
+  page{
+    height:100%;
+  }
+  .beijing{
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+    filter: blur(10rpx); /*高斯模糊*/
+  }
+  .yuyinWrap {
+    position: relative;
+    margin-top:300rpx;
+  }
+   
+  .yuyinCon {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 10rpx 10rpx 70rpx;
+  }
+  .yuyinBtn {
+    width: 30%;
+    height: 70rpx;
+    position: absolute;
+    right: 112rpx;
+    bottom: 12rpx;
+    border: 1px solid #eee;
+    background: #fff;
+    color: #606267;
+    line-height: 62rpx;
+  }
+  .start{
+    left: -112rpx;
+  }
+  .btn{
+ 
+    margin-top: 30rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+  .banner1 image{
+    width:65rpx;
+    height: 65rpx;
+  }
+

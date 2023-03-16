@@ -1,0 +1,25 @@
+<!--pages/piao/piao.wxml-->
+<image class="beijing" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/beijing.jpg" mode="aspectFill" style="opacity:{{0.3}}"></image>
+<view class="banner">
+  <view class="box">
+    <text class="text0">\n【票务中心】\n\n</text>
+
+    <text class="text1">一、票价信息\n</text>
+    <text class="text2">旺季(4月1日-10月31日)：8:30-17:30</text>
+    <text class="text4">成年人全票价：120元/人次\n学生半票价：60元/人次</text>
+    <text class="text2">淡季(11月1日-次年3月31日)：8:30-17:00</text>
+    <text class="text4">成年人全票价：100元/人次\n学生半票价：50元/人次\n\n</text>
+  <text class="text1">二、购票方式\n</text>
+  <text class="text3">1、线上购票(通过扫描下方二维码进入“云冈石窟官微”，通过“畅游云冈-购票通道”进行购票。)\n</text>
+  <text>\n</text>
+  <image class="img" show-menu-by-longpress src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/im/guanwei.png"></image>
+  <text>\n</text>
+  <text class="text3">2、现场购票：景区现场凭本人身份证购票\n\n</text>
+  <text class="text1">三、注意事项\n</text>
+  <text class="text3">1、网络购票需填写个人身份信息预定，扫码入园，门票当日有效。
+　　2、禁止携带宠物及香烛入园，景区内禁止吸烟，禁止无人机飞行。
+　　3、不要在洞窟内和建筑上留下姓名，洞窟内请勿拍照，并请注意警示标志，服从工作人员的管理。 </text>
+</view>
+<text>\n</text>
+
+  </view>

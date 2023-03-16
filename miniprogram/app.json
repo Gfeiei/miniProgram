@@ -1,22 +1,33 @@
 {
-    "pages": [
-        "pages/start/start",
+    "pages": [        "pages/index/index",
         "pages/grant/grant",
-        "pages/index/index",
+        "pages/start/start",
+
+        "pages/piao/piao",
         "pages/info/info",
         "pages/intro/intro",
-        "pages/jianjie/jianjie"
+        "pages/jianjie/jianjie",
+        "pages/lishi/lishi",
+        "pages/sanqi/sanqi"
     ],
     "window": {
-        "backgroundColor": "#796b30",
+        "backgroundColor": "#8d6332",
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#7a4c16",
         "navigationBarTitleText": "云冈欢迎您",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "white"
     },
     "permission": {
-        "scope.userLocation": {
+        "scope.userFuzzyLocation": {
             "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "requiredPrivateInfos": [
+        "getFuzzyLocation"
+    ],
+    "plugins": {
+        "WechatSI": {
+            "version": "0.3.5",
+            "provider": "wx069ba97219f66d99"
         }
     },
     "sitemapLocation": "sitemap.json",

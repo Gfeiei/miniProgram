@@ -2,48 +2,67 @@
 .info{
   width: 100%;
   height: 100%;
-  /* background-image:url(https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8cb1cb134954092373b4a60c9158d109b2de49e7.jpg); */
 }
 
 .box1{
-  
- background-color:#f0efeb;
   display: flex;
-  position: absolute;
- top:350rpx;
+  background-color:#f0efeb;
+  flex-direction: column;
+  top:350rpx;
   width: 100%;
-height: 100%;
+  height: 100%;
  
  
   
 }
 
 .box2{
-  font-size: 25px;
-  color:#050a11;
-  font-weight: 400;
-  position: relative;
-  
-  width: 100%;
-  height: 70rpx;
-  margin:16rpx ;
- 
+  display:inline-flex;
 
-  
+  font-size:60rpx;
+  color:#050a11;
+  width: 100%;
+  height: 1100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
 }
 .box2_1{
- 
- 
- 
-  position: relative;
-  
-  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #fdcf64;
+}
+.box2_2{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1700rpx;
+  width: 100%;
+}
 
-  border-bottom: 1rpx solid #ffd166;
-  
+.shipin{
+  height: 100%;
+  width: 98%;
+}
+.text{
+
+  font-size:60rpx;
+  color: #721c1c;
+  font-weight: bold;
+  font-family: STSong;
+
+}
+
+.text1{
+
+  font-size:35rpx;
+  text-indent:2em;
 }
 .background{
   width: 100%;
@@ -51,19 +70,15 @@ height: 100%;
   top:0rpx;
   position: relative;
 }
-.text{
-  position: absolute;
-  font-size: 20px;
-  text-align: center;
-  font-weight:400;
-  top:100rpx;
-  left:25rpx;
+.btn{
+
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
 }
-.text1{
-  position: absolute;
-  font-size: 17px;
-  text-align: center;
-  font-weight:300;
-  top:145rpx;
-  margin:20rpx ;
+.btn image{
+  width:65rpx;
+  height: 65rpx;
 }

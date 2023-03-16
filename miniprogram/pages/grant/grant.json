@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "云冈智能导游",
+  "enablePullDownRefresh": true,
+  "disableScroll": true
 }

@@ -8,11 +8,10 @@ Page({
   //页面跳转
   goToIndex: function(e) {
     if(e.target.id == 1){
-  
       wx.navigateTo({
-     url: '/pages/index/index',
+      url: '/pages/index/index',
      })
-   }
+    }
 
    else {
      wx.navigateTo({

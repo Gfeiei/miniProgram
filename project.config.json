@@ -39,14 +39,14 @@
         "packNpmRelationList": [],
         "minifyWXSS": true,
         "disableUseStrict": false,
+        "minifyWXML": true,
         "showES6CompileOption": false,
-        "useCompilerPlugins": false,
-        "minifyWXML": true
+        "useCompilerPlugins": false
     },
     "compileType": "miniprogram",
     "appid": "wxa6d3b093ab1feee9",
-    "projectname": "%E5%B0%8F%E6%96%B0%E5%B0%8F%E5%BF%83",
-    "libVersion": "2.14.1",
+    "projectname": "云冈智能旅游",
+    "libVersion": "2.25.2",
     "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
     "condition": {
         "plugin": {

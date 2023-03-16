@@ -12,9 +12,8 @@
          <image class="smalltitle" src="/img/more/t2.png"></image>
         <view >
           <view class="smalltitle1"> </view>
-          <view class="confirm-btn" bindtap='goToIndex' id="1">云冈石窟</view>
           <view class="confirm-btn" bindtap='goToIndex' id="3">云冈石窟介绍</view>
-          
+          <view class="confirm-btn" bindtap='goToIndex' id="1">云冈石窟地图</view>
         </view>
        
         

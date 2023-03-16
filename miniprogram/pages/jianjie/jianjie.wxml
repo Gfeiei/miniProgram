@@ -1,15 +1,29 @@
 <!--pages/jianjie/jianjie.wxml-->
+<image class="beijing" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/beijing.jpg" mode="aspectFill" style="opacity:{{0.3}}"></image>
 <view class="banner">
-    <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
+
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
    indicator-active-color="#fff" circular autoplay interval="4000">
-   <swiper-item><image src="/img/ico/jianjie1.jpg"></image></swiper-item>
-   <swiper-item><image src="/img/ico/jianjie2.jpg"></image></swiper-item>
-   <swiper-item><image src="/img/ico/jianjie3.jpg"></image></swiper-item>
-   </swiper>
-   <view class="tview">
-     <text class="text0">\n\n云冈石窟简介\n\n</text>
-     <text class="text1">云冈石窟位于山西省大同市城西约16公里的武州（周）山南麓、武州川的北岸，石窟依山开凿，东西绵延约1公里。存有主要洞窟45个，大小窟龛252个，石雕造像51000余躯，为中国规模最大的古代石窟群之一。\n\n</text>
-     <text class="text2">云冈石窟在1961年被国务院公布为全国首批重点文物保护单位，2001年12月14日被联合国教科文组织列入世界遗产名录，2007年5月8日被国家旅游局评为首批国家5A级旅游景区。\n\n</text>
-     <text class="text3">2020年2月，为致敬奋战在抗疫一线的医务工作者，云冈石窟景区恢复运营之日起至2020年12月31日，向全国医务工作者免门票。\n\n</text>
-   </view>
+    <swiper-item><image src="/img/ico/jianjie1.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/ico/jianjie2.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/ico/jianjie3.jpg"></image></swiper-item>
+  </swiper>
 </view>
+
+<view class="banner1">
+  <view class="tview">
+    <view class="box">
+      <text class="text0">\n【云冈石窟简介】\n\n</text>
+      <video class="shipin" src="" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/0.mp4"></video>
+     
+      <view class="btn">
+        <button bindtap="start" style="height: 90rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+        <button bindtap="end" style="height: 90rpx;width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+      </view>
+      <text class="text1" >{{wz1}}</text>
+      <text class="text2" >{{wz2}}</text>
+      <text class="text3">{{wz3}}</text>
+    </view>
+  </view>
+</view>
+  

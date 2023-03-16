@@ -1,20 +1,18 @@
 
-  <view class="introduction">
-    <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
-   indicator-active-color="#fff" circular autoplay interval="4000">
-   <swiper-item><image src="/img/ico/jianjie1.jpg"></image></swiper-item>
-   <swiper-item><image src="/img/ico/jianjie2.jpg"></image></swiper-item>
-   <swiper-item><image src="/img/ico/jianjie3.jpg"></image></swiper-item>
-   </swiper>
-   <view class="container">
-     <view class="context">
-       <button type="warn" plain="true" bindtap="gojianjie">简介</button>
-     </view>
-     <view class="context">
-     <button type="warn" plain="true" bindtap="golishi">历史</button>
-      </view>
-      <view class="context">
-        <button type="warn" plain="true" bindtap="gosanqi">三期石窟</button>
-      </view>
+<image class="beijing" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/beijing.jpg" mode="aspectFill" style="opacity:{{0.4}}"></image>
+
+<view class="introduction">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay interval="4000">
+    <swiper-item><image src="/img/ico/yun1.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/ico/yun2.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/ico/yun3.jpg"></image></swiper-item>
+  </swiper>
+    
+
+    <view class="context">
+      <button  class="butt" bindtap="gojianjie"  hover-class='button-hover'><text class='text'>简介</text></button>
+      <button  class="butt" bindtap="golishi"  hover-class='button-hover'><text class='text'>历史</text></button>
+      <button  class="butt" bindtap="gosanqi"  hover-class='button-hover'><text class='text'>三期石窟</text></button>
     </view>
+
 </view>

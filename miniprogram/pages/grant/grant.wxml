@@ -1,6 +1,20 @@
-<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
-<open-data type="userAvatarUrl" class="AvatarUrl"></open-data>
-<open-data type="userNickName" class="nicname"></open-data>
-<!-- 需要使用 button 来授权登录 -->
-<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">授权登录</button>
+<!--调用存储中的图片-->
+<image class="beijing" src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/beijing.jpg" mode="aspectFill" style="opacity:{{0.4}}"></image>
+
+<view class="header" wx:if="{{isShowUserName}}" bindtap="change">
+  <!-- 获取到用户的微信头像 -->
+  <image style="height: 200rpx;width: 200rpx;" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <!-- 获取到用户的微信昵称 -->
+  <text style="font-size: 20rpx;" class="userinfo-nickname" >{{userInfo.nickName}}</text>
+  <!-- 进入主界面的图片 -->
+  <image style="height: 200rpx;width: 300rpx;" bindtap='goToIndex' src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/banners/goin.jpg"></image>
+</view>
+
+<view wx:if="{{!isShowUserName}}" class="userinfo">
+  <button type="primary"  bindtap="getUserProfile"><text class="lo"> 授权登录 </text></button>
+</view>
+
+<!-- 
+    <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">授权登录</button>
 <view wx:else>请升级微信版本</view>
+-->

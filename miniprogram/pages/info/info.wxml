@@ -16,15 +16,145 @@
         {{market.name}}
       </view>
     </view>
-    <view class="text">
-       简介:
-    </view>
-    <view class="text1">
-      <!-- 显示标记物的内容 -->
-      {{market.description}}
-    </view>
-  </view>
-   
- 
+    <view class="box2_2">
+    <text>\n\n</text>
+      <block wx:if="{{market.id==0}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/1.2.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==1}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/1.2.mp4"></video>
+      </block> 
+      <block wx:if="{{market.id==2}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/3.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==3}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/5.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==4}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/6.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==5}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/7.8.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==6}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/7.8.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==7}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/9.13.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==8}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/9.13.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==9}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/9.13.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==10}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/15.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==11}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/16.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==12}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/19.mp4"></video>
+      </block>
+      <block wx:if="{{market.id==13}}">
+        <video class="shipin" autoplay src="cloud://mana-3g7peqtjfc5bce0d.6d61-mana-3g7peqtjfc5bce0d-1309196313/video/20.mp4"></video>
+      </block>
+      <text class="text">
+        简 介
+      </text>
 
+ 
+      <block wx:if="{{market.id==0}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80px;margin-left: 20px;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50px;margin-left: 80px;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==1}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block> 
+      <block wx:if="{{market.id==2}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==3}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==4}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==5}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==6}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==7}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==8}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:110rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:110rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==9}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:100rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:100rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==10}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:100rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:100rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==11}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:100rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:100rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==12}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:100rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:100rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      <block wx:if="{{market.id==13}}">
+        <view class="btn">
+          <button bindtap="start" style="height: 80rpx; width:100rpx; margin-right: 80rpx;margin-left: 20rpx;"><image src="/img/bo.png" style="opacity:{{0.7}}"></image></button>
+          <button bindtap="end" style="height: 80rpx; width:100rpx; margin-right: 50rpx;margin-left: 80rpx;"><image src="/img/bubo.png" style="opacity:{{0.7}}"></image></button>
+        </view>
+      </block>
+      
+      <view class="text1">
+        <!-- 显示标记物的内容 -->
+        {{market.description}}
+      </view>
+      <text>\n\n\n\n\n\n</text>
+    </view>  
+  </view> 
 </view>
